@@ -1,0 +1,103 @@
+body{
+	font-family: Tahoma, Geneva, sans-serif;
+	color: #fff;
+	background-image: url(download.jpg);
+	height: 100vh;
+	background-size: cover;
+	background-position: center;
+
+}
+.sign-in
+{
+	background: rgba(45,61,81,0.8);
+	padding: 41px;
+	width: 251px;
+	margin: auto;
+	margin-top: 80px;
+	height: 400px;
+	margin-left: 180px;
+	
+}
+form
+{
+	width: 240px;
+	text-align: center;	
+}
+input[type=text]
+{
+	width: 240px;
+	text-align: center;
+	background: transparent;
+	border: none;
+	border-bottom: 1px solid #fff;
+	font-family: 'Play', sans-serif;
+	font-size: 16px;
+	font-weight: 200px;
+	padding: 10px 0;
+	transition: border 0.5s;
+	outline: none;
+	color: #fff;
+}
+input[type=password]
+{
+	width: 240px;
+	text-align: center;
+	background: transparent;
+	border: none;
+	border-bottom: 1px solid #fff;
+	font-family: 'Play', sans-serif;
+	font-size: 16px;
+	font-weight: 200px;
+	padding: 10px 0;
+	transition: border 0.5s;
+	outline: none;
+	color: #fff;
+}
+input[type=button]
+{
+	border: none;
+	width: 190px;
+	background: green;
+	color: #000;
+	font-size: 16px;
+	line-height: 25px;
+	padding: 10px 0;
+	border-radius: 15px;
+	cursor: pointer;	
+}
+input[type=button]: hover
+{
+	color: #000;
+	background-color: white;
+	text-decoration: blink;
+}
+h2
+{
+	color: white;
+}
+a
+{
+	color: yellow;
+	text-decoration: blink;
+}
+a:hover
+{
+	color: red;
+}
+.container
+{
+	display: flex;
+	flex-direction: row;
+	width: 100%;
+}
+::placeholder {
+	color: aliceblue;
+	opacity: 0.8;
+}
+
+
+
+
+
+
+
